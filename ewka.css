@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-thin.woff2') format('woff2'), url('ttf/ewka-thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedthin.woff2') format('woff2'), url('ttf/ewka-extendedthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-thinoblique.woff2') format('woff2'), url('ttf/ewka-thinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('woff2/ewka-thinoblique.woff2') format('woff2'), url('ttf/ewka-thinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedthinoblique.woff2') format('woff2'), url('ttf/ewka-extendedthinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedthinoblique.woff2') format('woff2'), url('ttf/ewka-extendedthinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-thinitalic.woff2') format('woff2'), url('ttf/ewka-thinitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedthinitalic.woff2') format('woff2'), url('ttf/ewka-extendedthinitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-extralight.woff2') format('woff2'), url('ttf/ewka-extralight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedextralight.woff2') format('woff2'), url('ttf/ewka-extendedextralight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-extralightoblique.woff2') format('woff2'), url('ttf/ewka-extralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('woff2/ewka-extralightoblique.woff2') format('woff2'), url('ttf/ewka-extralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedextralightoblique.woff2') format('woff2'), url('ttf/ewka-extendedextralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedextralightoblique.woff2') format('woff2'), url('ttf/ewka-extendedextralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-extralightitalic.woff2') format('woff2'), url('ttf/ewka-extralightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedextralightitalic.woff2') format('woff2'), url('ttf/ewka-extendedextralightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-light.woff2') format('woff2'), url('ttf/ewka-light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedlight.woff2') format('woff2'), url('ttf/ewka-extendedlight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-lightoblique.woff2') format('woff2'), url('ttf/ewka-lightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('woff2/ewka-lightoblique.woff2') format('woff2'), url('ttf/ewka-lightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedlightoblique.woff2') format('woff2'), url('ttf/ewka-extendedlightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedlightoblique.woff2') format('woff2'), url('ttf/ewka-extendedlightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-lightitalic.woff2') format('woff2'), url('ttf/ewka-lightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedlightitalic.woff2') format('woff2'), url('ttf/ewka-extendedlightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-regular.woff2') format('woff2'), url('ttf/ewka-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extended.woff2') format('woff2'), url('ttf/ewka-extended.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-oblique.woff2') format('woff2'), url('ttf/ewka-oblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('woff2/ewka-oblique.woff2') format('woff2'), url('ttf/ewka-oblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedoblique.woff2') format('woff2'), url('ttf/ewka-extendedoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedoblique.woff2') format('woff2'), url('ttf/ewka-extendedoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-italic.woff2') format('woff2'), url('ttf/ewka-italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendeditalic.woff2') format('woff2'), url('ttf/ewka-extendeditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-medium.woff2') format('woff2'), url('ttf/ewka-medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedmedium.woff2') format('woff2'), url('ttf/ewka-extendedmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-mediumoblique.woff2') format('woff2'), url('ttf/ewka-mediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('woff2/ewka-mediumoblique.woff2') format('woff2'), url('ttf/ewka-mediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedmediumoblique.woff2') format('woff2'), url('ttf/ewka-extendedmediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedmediumoblique.woff2') format('woff2'), url('ttf/ewka-extendedmediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-mediumitalic.woff2') format('woff2'), url('ttf/ewka-mediumitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedmediumitalic.woff2') format('woff2'), url('ttf/ewka-extendedmediumitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-semibold.woff2') format('woff2'), url('ttf/ewka-semibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedsemibold.woff2') format('woff2'), url('ttf/ewka-extendedsemibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-semiboldoblique.woff2') format('woff2'), url('ttf/ewka-semiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('woff2/ewka-semiboldoblique.woff2') format('woff2'), url('ttf/ewka-semiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedsemiboldoblique.woff2') format('woff2'), url('ttf/ewka-extendedsemiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedsemiboldoblique.woff2') format('woff2'), url('ttf/ewka-extendedsemiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-semibolditalic.woff2') format('woff2'), url('ttf/ewka-semibolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedsemibolditalic.woff2') format('woff2'), url('ttf/ewka-extendedsemibolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-bold.woff2') format('woff2'), url('ttf/ewka-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedbold.woff2') format('woff2'), url('ttf/ewka-extendedbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-boldoblique.woff2') format('woff2'), url('ttf/ewka-boldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('woff2/ewka-boldoblique.woff2') format('woff2'), url('ttf/ewka-boldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedboldoblique.woff2') format('woff2'), url('ttf/ewka-extendedboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedboldoblique.woff2') format('woff2'), url('ttf/ewka-extendedboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-bolditalic.woff2') format('woff2'), url('ttf/ewka-bolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedbolditalic.woff2') format('woff2'), url('ttf/ewka-extendedbolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-extrabold.woff2') format('woff2'), url('ttf/ewka-extrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedextrabold.woff2') format('woff2'), url('ttf/ewka-extendedextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-extraboldoblique.woff2') format('woff2'), url('ttf/ewka-extraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('woff2/ewka-extraboldoblique.woff2') format('woff2'), url('ttf/ewka-extraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedextraboldoblique.woff2') format('woff2'), url('ttf/ewka-extendedextraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedextraboldoblique.woff2') format('woff2'), url('ttf/ewka-extendedextraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-extrabolditalic.woff2') format('woff2'), url('ttf/ewka-extrabolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedextrabolditalic.woff2') format('woff2'), url('ttf/ewka-extendedextrabolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/ewka-heavy.woff2') format('woff2'), url('ttf/ewka-heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/ewka-extendedheavy.woff2') format('woff2'), url('ttf/ewka-extendedheavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/ewka-heavyoblique.woff2') format('woff2'), url('ttf/ewka-heavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('woff2/ewka-heavyoblique.woff2') format('woff2'), url('ttf/ewka-heavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/ewka-extendedheavyoblique.woff2') format('woff2'), url('ttf/ewka-extendedheavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('woff2/ewka-extendedheavyoblique.woff2') format('woff2'), url('ttf/ewka-extendedheavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/ewka-heavyitalic.woff2') format('woff2'), url('ttf/ewka-heavyitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ewka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/ewka-extendedheavyitalic.woff2') format('woff2'), url('ttf/ewka-extendedheavyitalic.ttf') format('truetype');
+}
