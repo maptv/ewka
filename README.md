@@ -8,10 +8,11 @@ To create your own custom font,
 git clone https://github.com/be5invis/Iosevka ~/be5invis/Iosevka --depth=1
 cd ~/be5invis/Iosevka
 cp ~/mskar/ewka/private-build-plans.toml ~/be5invis/Iosevka
-npm run build -- contents::iosevka-custom
+npm run build -- contents::ewka
 ```
 
 3. `git clone https://github.com/ryanoasis/nerd-fonts ~/ryanoasis/nerd-fonts --depth=1`
+4. `brew install fontforge`
 5. patch your custom font using the nerd-font font-patcher: https://github.com/ryanoasis/nerd-fonts#font-patcher
 
 ```
