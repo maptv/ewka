@@ -3,6 +3,8 @@ family = "Ewka"
 no-cv-ss = true
 serifs = "sans"
 spacing = "normal"
+no-cv-ss = true
+export-glyph-names = true
 
 [buildPlans.ewka.variants.design]
 asterisk = "penta-low"
